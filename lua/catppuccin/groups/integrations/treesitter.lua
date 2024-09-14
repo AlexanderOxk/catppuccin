@@ -14,8 +14,8 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 
 	local colors = { -- Reference: https://github.com/nvim-treesitter/nvim-treesitter/blob/master/CONTRIBUTING.md
 		-- Identifiers
-		["@variable"] = { fg = C.maroon, style = O.styles.variables or {} }, -- Any variable name that does not have another highlight.
-		["@variable.builtin"] = { fg = C.red, style = O.styles.properties or {} }, -- Variable names that are defined by the languages, like this or self.
+		["@variable"] = { fg = C.red, style = O.styles.variables or {} }, -- Any variable name that does not have another highlight.
+		["@variable.builtin"] = { fg = C.peach, style = O.styles.properties or {} }, -- Variable names that are defined by the languages, like this or self.
 		["@variable.parameter"] = { fg = C.maroon, style = O.styles.variables or {} }, -- For parameters of a function.
 		["@variable.member"] = { fg = C.lavender }, -- For fields.
 
@@ -191,6 +191,9 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 		["@type.builtin.c"] = { fg = C.yellow, style = {} },
 		["@property.cpp"] = { fg = C.text },
 		["@type.builtin.cpp"] = { fg = C.yellow, style = {} },
+
+		-- Systemverilog
+		["@label.verilog"] = { fg = C.yellow, style = { "italic" } },
 
 		-- gitcommit
 		["@comment.warning.gitcommit"] = { fg = C.yellow },

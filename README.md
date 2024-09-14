@@ -7,9 +7,7 @@
     <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
-<p align="center">
-This is my own fork of[catppuccin/nvim](https://github.com/catppuccin/nvim) which modifies syntax highlight group colors.
-</p>
+This is my own fork of [catppuccin/nvim](https://github.com/catppuccin/nvim) which modifies syntax highlight group colors.
 
 # Thanks to
 
